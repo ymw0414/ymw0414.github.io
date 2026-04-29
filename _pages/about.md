@@ -76,4 +76,4 @@ redirect_from:
   <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/minwoo-yoo-680411234/" target="_blank" rel="noopener">minwoo-yoo</a></p>
 </div>
 
-<a class="about-cv-btn" href="{{ '/cv/' | relative_url }}">Curriculum Vitae</a>
+<a class="about-cv-btn" href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Curriculum Vitae</a>
