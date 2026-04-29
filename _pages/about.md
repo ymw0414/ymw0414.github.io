@@ -11,28 +11,6 @@ I am a Ph.D. Candidate in Economics at The George Washington University.
 
 My research lies at the intersection of **media economics**, **labor economics**, and **applied microeconometrics**. I use causal inference methods (difference-in-differences, instrumental variables, shift-share designs) together with text-as-data and machine learning techniques to study how economic shocks shape political/media discourse and labor market outcomes.
 
-Research interests
-======
-- Media Economics & Political Economy
-- Labor Economics
-- Applied Microeconometrics
-- Text-as-Data, NLP, and Machine Learning
-
-Working Papers
-======
-
-**Trade Shocks and Media Slant** — \[[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6259678)\]
-
-> *Abstract.* This paper studies how local exposure to NAFTA-era trade shocks shaped U.S. newspaper coverage of trade policy. Combining a large corpus of local news with a shift-share research design, I measure changes in media slant on trade-related issues and quantify the downstream effect on political attitudes and voting behavior.
-
----
-
-**In and Out**
-
-> *Abstract.* Using administrative data from a major Korean food delivery platform, this paper studies the entry, exit, and earnings dynamics of gig workers. I document worker flows across the platform, characterize who stays and who leaves, and quantify how earnings evolve with experience.
-
-*Presented at the Korean Economic Association Annual Meeting 2025. Draft available upon request.*
-
-Contact
-======
 [ymw0414@gmail.com](mailto:ymw0414@gmail.com)
+
+[**→ Curriculum Vitae**](/cv/)

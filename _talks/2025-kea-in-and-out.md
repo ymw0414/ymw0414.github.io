@@ -1,5 +1,5 @@
 ---
-title: "In and Out"
+title: "In and Out: How Do Food Delivery Riders Work?"
 collection: talks
 type: "Conference talk"
 permalink: /talks/2025-kea-in-and-out
