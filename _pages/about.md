@@ -35,7 +35,4 @@ Working Papers
 
 Contact
 ======
-**Email:** [ymw0414@gmail.com](mailto:ymw0414@gmail.com)
-**Department:** Department of Economics, The George Washington University
-**LinkedIn:** [minwoo-yoo](https://www.linkedin.com/in/minwoo-yoo-680411234/)
-**GitHub:** [ymw0414](https://github.com/ymw0414)
+[ymw0414@gmail.com](mailto:ymw0414@gmail.com)
