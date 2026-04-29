@@ -10,50 +10,56 @@ redirect_from:
 <style>
   .about-title {
     color: #c47d2c;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     font-weight: 600;
-    margin: 0 0 1.8rem 0;
+    margin: 0 0 2rem 0;
     line-height: 1.4;
+    letter-spacing: -0.005em;
   }
-  .about-section { margin-top: 1.8rem; }
+  .about-section { margin-top: 2rem; }
   .about-section h3 {
     text-transform: uppercase;
-    letter-spacing: 0.18em;
-    font-size: 0.78rem;
-    color: #555;
-    font-weight: 700;
-    margin: 0 0 0.9rem 0;
+    letter-spacing: 0.16em;
+    font-size: 0.75rem;
+    color: #777;
+    font-weight: 600;
+    margin: 0 0 0.85rem 0;
   }
   .about-section ul {
     margin: 0;
-    padding-left: 1.2rem;
-    line-height: 1.9;
-    color: #333;
-    font-size: 0.98rem;
+    padding-left: 1.1rem;
+    color: #1a1a1a;
+    font-size: 0.95rem;
+    list-style-type: disc;
+  }
+  .about-section ul li {
+    line-height: 1.45;
+    padding: 0.18rem 0;
   }
   .about-contact p {
-    margin: 0 0 0.7rem 0;
+    margin: 0;
     line-height: 1.5;
-    font-size: 0.98rem;
-    color: #333;
+    font-size: 0.95rem;
+    color: #1a1a1a;
   }
   .about-contact a {
     color: #2c5f7c;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid #cdd9e0;
   }
-  .about-contact a:hover { color: #1a3d52; }
+  .about-contact a:hover { color: #1a3d52; border-bottom-color: #2c5f7c; }
   .about-cv-btn {
     display: inline-block;
     background: #1f4e5f;
     color: #fff !important;
-    padding: 0.7rem 2.2rem;
+    padding: 0.55rem 1.6rem;
     border-radius: 999px;
-    font-size: 0.82rem;
+    font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.18em;
     text-decoration: none !important;
     text-transform: uppercase;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
   }
   .about-cv-btn:hover { background: #143945; }
 </style>
@@ -74,4 +80,4 @@ redirect_from:
   <p><strong>E-mail:</strong> <a href="mailto:ymw0414@gmail.com">ymw0414@gmail.com</a></p>
 </div>
 
-<a class="about-cv-btn" href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Curriculum Vitae</a>
+<a class="about-cv-btn" href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>
