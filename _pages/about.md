@@ -20,11 +20,20 @@ Research interests
 
 Working Papers
 ======
-- **Trade Shocks and Media Slant** *(primary project)* — How did local exposure to NAFTA-era trade shocks shape U.S. newspaper coverage of trade policy? I combine a large corpus of local news with a shift-share design to measure changes in media slant and quantify its downstream effect on political attitudes.
 
-- **In and Out: Worker Flows in Korea's Food Delivery Platform Economy** — Using administrative platform data, I study entry, exit, and earnings dynamics of gig workers in Korea's food delivery sector.
+**Trade Shocks and Media Slant** *(primary project)*
 
-*Drafts available upon request.*
+> *Abstract.* This paper studies how local exposure to NAFTA-era trade shocks shaped U.S. newspaper coverage of trade policy. Combining a large corpus of local news with a shift-share research design, I measure changes in media slant on trade-related issues and quantify the downstream effect on political attitudes and voting behavior.
+
+*Draft available upon request.*
+
+---
+
+**In and Out: Worker Flows in Korea's Food Delivery Platform Economy**
+
+> *Abstract.* Using administrative data from a major Korean food delivery platform, this paper studies the entry, exit, and earnings dynamics of gig workers. I document worker flows across the platform, characterize who stays and who leaves, and quantify how earnings evolve with experience.
+
+*Presented at the Korean Economic Association Annual Meeting 2025. Draft available upon request.*
 
 Contact
 ======
