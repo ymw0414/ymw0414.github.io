@@ -10,12 +10,12 @@ redirect_from:
 <style>
   .about-title {
     font-family: 'Crimson Pro', Georgia, serif !important;
-    font-size: 1.55rem;
+    font-size: 1.85rem;
     font-weight: 500;
     color: #1a1a1a;
-    margin: 0 0 0.4rem 0;
-    line-height: 1.3;
-    letter-spacing: -0.01em;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
   }
   .about-subtitle {
     font-family: 'Crimson Pro', Georgia, serif !important;
@@ -24,6 +24,8 @@ redirect_from:
     color: #666;
     margin: 0 0 2.5rem 0;
     font-weight: 400;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
   }
   .about-section { margin-top: 2.2rem; }
   .about-section h3 {
