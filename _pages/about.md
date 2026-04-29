@@ -8,24 +8,59 @@ redirect_from:
 ---
 
 <style>
-  .home-intro p { font-size: 1.05rem; line-height: 1.7; color: #333; margin-bottom: 1.2rem; }
-  .home-intro strong { color: #1a1a1a; }
-  .home-interests { margin-top: 2rem; }
-  .home-interests h3 { font-size: 1.05rem; margin: 0 0 0.6rem 0; color: #1a1a1a; font-weight: 700; }
-  .home-interests ul { margin: 0; padding-left: 1.2rem; line-height: 1.8; color: #333; font-size: 1rem; }
-  .home-footer { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid #e6e6e6; font-size: 0.95rem; color: #555; }
-  .home-footer a { color: #2c5f7c; text-decoration: none; }
-  .home-footer a:hover { text-decoration: underline; }
-  .home-footer .cv-link { font-weight: 600; }
+  .about-title {
+    color: #c47d2c;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin: 0 0 1.8rem 0;
+    line-height: 1.4;
+  }
+  .about-section { margin-top: 1.8rem; }
+  .about-section h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.78rem;
+    color: #555;
+    font-weight: 700;
+    margin: 0 0 0.7rem 0;
+  }
+  .about-section ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    line-height: 1.9;
+    color: #333;
+    font-size: 0.98rem;
+  }
+  .about-contact p {
+    margin: 0 0 0.8rem 0;
+    line-height: 1.5;
+    font-size: 0.98rem;
+    color: #333;
+  }
+  .about-contact a {
+    color: #2c5f7c;
+    text-decoration: underline;
+  }
+  .about-contact a:hover { color: #1a3d52; }
+  .about-cv-btn {
+    display: inline-block;
+    background: #1f4e5f;
+    color: #fff !important;
+    padding: 0.65rem 2rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+  }
+  .about-cv-btn:hover { background: #143945; }
 </style>
 
-<div class="home-intro" markdown="1">
+<p class="about-title">Ph.D. Candidate, The George Washington University</p>
 
-Hi, I'm **Minwoo Yoo** — a Ph.D. Candidate in Economics at The George Washington University.
-
-</div>
-
-<div class="home-interests">
+<div class="about-section">
   <h3>Research Interests</h3>
   <ul>
     <li>Applied Microeconomics</li>
@@ -34,8 +69,11 @@ Hi, I'm **Minwoo Yoo** — a Ph.D. Candidate in Economics at The George Washingt
   </ul>
 </div>
 
-<div class="home-footer">
-  <a href="mailto:ymw0414@gmail.com">ymw0414@gmail.com</a>
-  &nbsp;·&nbsp;
-  <a class="cv-link" href="{{ '/cv/' | relative_url }}">Curriculum Vitae →</a>
+<div class="about-section about-contact">
+  <h3>Contact Details</h3>
+  <p><strong>E-mail:</strong> <a href="mailto:ymw0414@gmail.com">ymw0414@gmail.com</a></p>
+  <p><strong>GitHub:</strong> <a href="https://github.com/ymw0414" target="_blank" rel="noopener">ymw0414</a></p>
+  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/minwoo-yoo-680411234/" target="_blank" rel="noopener">minwoo-yoo</a></p>
 </div>
+
+<a class="about-cv-btn" href="{{ '/cv/' | relative_url }}">Curriculum Vitae</a>
