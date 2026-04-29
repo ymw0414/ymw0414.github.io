@@ -5,32 +5,95 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+  .research-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 1.5rem;
+  }
+  .research-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+    gap: 2.5rem;
+    align-items: start;
+  }
+  @media (max-width: 700px) {
+    .research-item { grid-template-columns: 1fr; gap: 1rem; }
+  }
+  .research-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .research-content h3 {
+    margin: 0 0 0.4rem 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .research-coauthors {
+    color: #6aa84f;
+    font-size: 0.95rem;
+    margin: 0 0 0.4rem 0;
+  }
+  .research-coauthors a { color: #6aa84f; text-decoration: none; }
+  .research-coauthors a:hover { text-decoration: underline; }
+  .research-status {
+    font-style: italic;
+    font-size: 0.95rem;
+    margin: 0 0 1rem 0;
+    color: #555;
+  }
+  .research-abstract {
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: #333;
+    margin: 0 0 1.2rem 0;
+  }
+  .research-link {
+    display: inline-block;
+    background: #b6d7a8;
+    color: #fff;
+    padding: 0.5rem 1.6rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+  }
+  .research-link:hover { background: #93c47d; color: #fff; text-decoration: none; }
+  .research-link + .research-link { margin-left: 0.6rem; }
+</style>
 
-{% include base_path %}
+<div class="research-list">
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <div class="research-item">
+    <div class="research-figure">
+      <img src="{{ '/images/research/event_study_ext_R.png' | relative_url }}" alt="Event Study: Share of R-Leaning Articles">
+    </div>
+    <div class="research-content">
+      <h3>Trade Shocks and Media Slant</h3>
+      <p class="research-status">Working Paper</p>
+      <p class="research-abstract">
+        This paper studies how local exposure to NAFTA-era trade shocks shaped U.S. newspaper coverage of trade policy. Combining a large corpus of local news articles with a shift-share research design, I measure changes in media slant on trade-related issues and examine their downstream effect on political attitudes and voting behavior.
+      </p>
+      <a class="research-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6259678" target="_blank" rel="noopener">PAPER</a>
+    </div>
+  </div>
 
+  <div class="research-item">
+    <div class="research-figure">
+      <img src="{{ '/images/research/in_and_out_elasticity.png' | relative_url }}" alt="Wage Elasticity by Experience">
+    </div>
+    <div class="research-content">
+      <h3>In and Out: How Do Food Delivery Riders Work?</h3>
+      <p class="research-coauthors">with Jungmin Lee and Jinseong Park</p>
+      <p class="research-status">Working Paper · Presented at KEA 2025</p>
+      <p class="research-abstract">
+        We estimate the wage elasticity of labor supply among workers with highly flexible schedules &mdash; food delivery riders. Using unique real-time, transaction-level data spanning nearly two years, we find that a one percent increase in the expected hourly wage raises the probability of working by 0.7&ndash;0.9 percentage points. Intensive-margin wage elasticities range from 2.5 to 2.8. Riders' labor supply becomes more elastic as they accumulate experience, and we find suggestive evidence that riders learn to reduce delivery time per order with experience.
+      </p>
+    </div>
+  </div>
 
-
+</div>
