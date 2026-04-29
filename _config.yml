@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Minwoo Yoo"
 title_separator          : "-"
 name                     : &name "Minwoo Yoo"
-description              : &description "Minwoo Yoo — Ph.D. Candidate in Economics at George Washington University"
+description              : &description "Minwoo Yoo — Ph.D. Candidate in Economics at The George Washington University"
 url                      : https://ymw0414.github.io
 baseurl                  : ""
 repository               : "ymw0414/ymw0414.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Minwoo Yoo"
   pronouns         : # example: "she/her"
-  bio              : "Ph.D. Candidate in Economics, George Washington University"
+  bio              : "Ph.D. Candidate in Economics, The George Washington University"
   location         : "Washington, D.C."
-  employer         : "George Washington University"
+  employer         : "The George Washington University"
   uri              : # URL
   email            : "ymw0414@gwmail.gwu.edu"
 

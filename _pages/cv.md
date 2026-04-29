@@ -13,8 +13,8 @@ A PDF version of my CV is [available here](/files/cv.pdf).
 
 Education
 ======
-* Ph.D. in Economics, George Washington University (expected 2027)
-* M.A. in Economics, George Washington University
+* Ph.D. in Economics, The George Washington University (expected 2027)
+* M.A. in Economics, The George Washington University
 * B.A. in Economics, [Undergraduate Institution — please update]
 
 Fields
