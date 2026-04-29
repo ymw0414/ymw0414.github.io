@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. Candidate in Economics at the [The George Washington University](https://economics.columbian.gwu.edu/).
+I am a Ph.D. Candidate in Economics at The George Washington University.
 
 My research lies at the intersection of **media economics**, **labor economics**, and **applied microeconometrics**. I use causal inference methods (difference-in-differences, instrumental variables, shift-share designs) together with text-as-data and machine learning techniques to study how economic shocks shape political/media discourse and labor market outcomes.
 
@@ -35,7 +35,7 @@ Working Papers
 
 Contact
 ======
-**Email:** [ymw0414@gwmail.gwu.edu](mailto:ymw0414@gwmail.gwu.edu)
+**Email:** [ymw0414@gmail.com](mailto:ymw0414@gmail.com)
 **Department:** Department of Economics, The George Washington University
 **LinkedIn:** [minwoo-yoo](https://www.linkedin.com/in/minwoo-yoo-680411234/)
 **GitHub:** [ymw0414](https://github.com/ymw0414)
