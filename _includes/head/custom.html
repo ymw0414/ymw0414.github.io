@@ -14,6 +14,15 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Force light theme; remove any saved dark preference -->
+<script>
+  try {
+    localStorage.removeItem('theme');
+    localStorage.setItem('theme', 'light');
+    document.documentElement.setAttribute('data-theme', 'light');
+  } catch (e) {}
+</script>
+
 <!-- Google Fonts: Inter (UI/headings) + Crimson Pro (body) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
