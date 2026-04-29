@@ -6,37 +6,46 @@ author_profile: true
 ---
 
 <style>
+  .page__title {
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    font-size: 1.7rem !important;
+    font-weight: 500 !important;
+    color: #1a1a1a !important;
+    letter-spacing: -0.01em;
+    margin-bottom: 2rem !important;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+  }
   .research-list {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
-    margin-top: 2rem;
+    gap: 5.5rem;
+    margin-top: 1rem;
   }
   .research-item {
     display: grid;
-    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
     gap: 3rem;
     align-items: center;
   }
   @media (max-width: 700px) {
-    .research-item { grid-template-columns: 1fr; gap: 1.2rem; align-items: start; }
+    .research-item { grid-template-columns: 1fr; gap: 1.5rem; align-items: start; }
   }
-  .research-figure {
-    background: #fafafa;
-    padding: 1.4rem 1.2rem;
-    border-radius: 4px;
-  }
+  .research-figure { margin: 0; }
   .research-figure img {
     width: 100%;
     height: auto;
     display: block;
   }
+
   .research-content h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.18rem;
-    font-weight: 700;
-    line-height: 1.35;
-    letter-spacing: -0.005em;
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    margin: 0 0 0.4rem 0;
+    font-size: 1.42rem;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: #1a1a1a;
   }
   .research-content h3 a.research-title-link,
   .research-content h3 a.research-title-link:hover,
@@ -45,32 +54,55 @@ author_profile: true
     text-decoration: none !important;
     border-bottom: none !important;
   }
+
   .research-coauthors {
-    color: #6aa84f;
-    font-size: 0.95rem;
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    font-style: italic;
+    color: #555;
+    font-size: 1.02rem;
     margin: 0 0 0.5rem 0;
   }
-  .research-coauthors a { color: #6aa84f; text-decoration: none; }
-  .research-coauthors a:hover { text-decoration: underline; }
-  .research-status {
-    font-style: italic;
-    font-size: 0.92rem;
-    margin: 0 0 1.2rem 0;
-    color: #666;
+  .archive .research-coauthors a,
+  .research-coauthors a {
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid #d0d0d0 !important;
   }
+  .research-coauthors a:hover { border-bottom-color: #1a1a1a !important; }
+
+  .research-status {
+    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+    font-size: 0.72rem;
+    text-transform: lowercase;
+    letter-spacing: 0;
+    color: #999;
+    margin: 0.8rem 0 1.1rem 0;
+  }
+  .research-status::before { content: "// "; color: #ccc; }
+
   .research-abstract {
-    font-size: 0.9rem;
-    line-height: 1.65;
+    font-size: 0.92rem;
+    line-height: 1.7;
     color: #333;
-    margin: 0 0 1.3rem 0;
+    margin: 0 0 1.4rem 0;
   }
   .research-presentations {
-    font-size: 0.85rem;
-    color: #666;
-    line-height: 1.55;
-    margin: 0 0 1.3rem 0;
+    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+    font-size: 0.72rem;
+    color: #888;
+    line-height: 1.7;
+    margin: 0 0 1.4rem 0;
+    text-transform: lowercase;
   }
-  .research-presentations em { color: #1a1a1a; font-style: normal; font-weight: 600; }
+  .research-presentations em { color: #555; font-style: normal; font-weight: 500; }
+  .archive .research-presentations a,
+  .research-presentations a {
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid #d0d0d0 !important;
+  }
+  .research-presentations a:hover { border-bottom-color: #1a1a1a !important; }
+
   .archive a.research-link,
   .archive a.research-link:hover,
   .archive a.research-link:visited,
@@ -79,22 +111,29 @@ author_profile: true
   a.research-link:hover,
   a.research-link:visited,
   a.research-link:active {
-    display: inline-block;
-    background: #b6d7a8;
-    color: #fff !important;
-    padding: 0.55rem 1.8rem;
-    border-radius: 999px;
-    font-size: 0.8rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background: transparent !important;
+    color: #1a1a1a !important;
+    padding: 0.45rem 0;
+    border: none !important;
+    border-bottom: 1.5px solid #1a1a1a !important;
+    border-radius: 0 !important;
+    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0;
     text-decoration: none !important;
-    border-bottom: none !important;
+    text-transform: lowercase;
     box-shadow: none !important;
     background-image: none !important;
+    transition: opacity 0.15s ease;
   }
+  .archive a.research-link::before,
+  a.research-link::before { content: "↓"; font-size: 0.95rem; }
   .archive a.research-link:hover,
-  a.research-link:hover { background: #93c47d !important; }
-  .research-link + .research-link { margin-left: 0.6rem; }
+  a.research-link:hover { opacity: 0.55; }
 </style>
 
 <div class="research-list">
@@ -105,11 +144,11 @@ author_profile: true
     </div>
     <div class="research-content">
       <h3><a class="research-title-link" href="{{ '/files/trade_shocks_media_slant.pdf' | relative_url }}" target="_blank" rel="noopener">Trade Shocks and Media Slant</a></h3>
-      <p class="research-status">Working Paper</p>
+      <p class="research-status">working paper</p>
       <p class="research-abstract">
         This paper studies how local exposure to NAFTA-era trade shocks shaped U.S. newspaper coverage of trade policy. Combining a large corpus of local news articles with a shift-share research design, I measure changes in media slant on trade-related issues and examine their downstream effect on political attitudes and voting behavior.
       </p>
-      <a class="research-link" href="{{ '/files/trade_shocks_media_slant.pdf' | relative_url }}" target="_blank" rel="noopener">PAPER</a>
+      <a class="research-link" href="{{ '/files/trade_shocks_media_slant.pdf' | relative_url }}" target="_blank" rel="noopener">paper.pdf</a>
     </div>
   </div>
 
@@ -120,11 +159,11 @@ author_profile: true
     <div class="research-content">
       <h3>In and Out: How Do Food Delivery Riders Work?</h3>
       <p class="research-coauthors">with <a href="https://sites.google.com/view/jungminlee71/home" target="_blank" rel="noopener">Jungmin Lee</a> and <a href="https://sites.google.com/site/jinseongpark83/home" target="_blank" rel="noopener">Jinseong Park</a></p>
-      <p class="research-status">Working Paper</p>
+      <p class="research-status">working paper</p>
       <p class="research-abstract">
         We estimate the wage elasticity of labor supply among workers with highly flexible schedules &mdash; food delivery riders. Using unique real-time, transaction-level data spanning nearly two years, we find that a one percent increase in the expected hourly wage raises the probability of working by 0.7&ndash;0.9 percentage points. Intensive-margin wage elasticities range from 2.5 to 2.8. Riders' labor supply becomes more elastic as they accumulate experience, and we find suggestive evidence that riders learn to reduce delivery time per order with experience.
       </p>
-      <p class="research-presentations"><em>Presentations:</em> Washington Area Labor Economics Symposium (WALES) 2026 [<a href="{{ '/files/in_and_out_poster.jpg' | relative_url }}" target="_blank" rel="noopener" style="color: #2c5f7c; text-decoration: none;">Poster</a>].</p>
+      <p class="research-presentations"><em>presented at</em> Washington Area Labor Economics Symposium (WALES) 2026 [<a href="{{ '/files/in_and_out_poster.jpg' | relative_url }}" target="_blank" rel="noopener">poster</a>]</p>
     </div>
   </div>
 
