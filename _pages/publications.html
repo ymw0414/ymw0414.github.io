@@ -66,10 +66,14 @@ author_profile: true
     margin: 0 0 1.3rem 0;
   }
   .research-presentations em { color: #1a1a1a; font-style: normal; font-weight: 600; }
-  .research-link,
-  .research-link:hover,
-  .research-link:visited,
-  .research-link:active {
+  .archive a.research-link,
+  .archive a.research-link:hover,
+  .archive a.research-link:visited,
+  .archive a.research-link:active,
+  a.research-link,
+  a.research-link:hover,
+  a.research-link:visited,
+  a.research-link:active {
     display: inline-block;
     background: #b6d7a8;
     color: #fff !important;
@@ -81,8 +85,10 @@ author_profile: true
     text-decoration: none !important;
     border-bottom: none !important;
     box-shadow: none !important;
+    background-image: none !important;
   }
-  .research-link:hover { background: #93c47d; }
+  .archive a.research-link:hover,
+  a.research-link:hover { background: #93c47d !important; }
   .research-link + .research-link { margin-left: 0.6rem; }
 </style>
 
