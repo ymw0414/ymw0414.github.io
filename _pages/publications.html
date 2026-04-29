@@ -7,24 +7,26 @@ author_profile: true
 
 <style>
   .page__title {
-    font-size: 1.6rem !important;
-    font-weight: 700 !important;
-    color: #111 !important;
-    line-height: 1.2 !important;
-    letter-spacing: -0.02em;
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    color: #1a1a1a !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.015em;
     margin: 0 0 2.5rem 0 !important;
     padding-bottom: 0 !important;
     border-bottom: none !important;
   }
+
   .research-list {
     display: flex;
     flex-direction: column;
-    gap: 5.5rem;
+    gap: 5rem;
     margin-top: 1rem;
   }
   .research-item {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
     gap: 3rem;
     align-items: center;
   }
@@ -39,12 +41,13 @@ author_profile: true
   }
 
   .research-content h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.15rem;
-    font-weight: 700;
-    line-height: 1.3;
-    letter-spacing: -0.01em;
-    color: #111;
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    margin: 0 0 0.4rem 0;
+    font-size: 1.45rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.012em;
+    color: #1a1a1a;
   }
   .research-content h3 a.research-title-link,
   .research-content h3 a.research-title-link:hover,
@@ -55,45 +58,48 @@ author_profile: true
   }
 
   .research-coauthors {
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    font-style: italic;
     color: #555;
-    font-size: 0.92rem;
-    margin: 0 0 0.5rem 0;
+    font-size: 1.05rem;
+    margin: 0 0 0.4rem 0;
+    line-height: 1.4;
   }
   .archive .research-coauthors a,
   .research-coauthors a {
     color: #1a1a1a !important;
     text-decoration: none !important;
-    border-bottom: 1px solid #d0d0d0 !important;
+    border-bottom: 1px solid #ccc !important;
   }
   .research-coauthors a:hover { border-bottom-color: #1a1a1a !important; }
 
   .research-status {
-    text-transform: uppercase;
-    letter-spacing: 0.14em;
-    font-size: 0.7rem;
-    font-weight: 600;
-    color: #999;
-    margin: 0.7rem 0 1.1rem 0;
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    font-style: italic;
+    font-size: 1rem;
+    color: #777;
+    margin: 0 0 1.2rem 0;
   }
 
   .research-abstract {
-    font-size: 0.92rem;
+    font-size: 0.93rem;
     line-height: 1.7;
     color: #333;
     margin: 0 0 1.4rem 0;
   }
   .research-presentations {
-    font-size: 0.85rem;
-    color: #666;
-    line-height: 1.6;
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    font-size: 0.98rem;
+    color: #555;
+    line-height: 1.55;
     margin: 0 0 1.4rem 0;
   }
-  .research-presentations em { color: #1a1a1a; font-style: normal; font-weight: 600; }
+  .research-presentations em { color: #1a1a1a; font-style: italic; font-weight: 500; }
   .archive .research-presentations a,
   .research-presentations a {
     color: #1a1a1a !important;
     text-decoration: none !important;
-    border-bottom: 1px solid #d0d0d0 !important;
+    border-bottom: 1px solid #ccc !important;
   }
   .research-presentations a:hover { border-bottom-color: #1a1a1a !important; }
 
@@ -110,20 +116,22 @@ author_profile: true
     gap: 0.4rem;
     background: transparent !important;
     color: #1a1a1a !important;
-    padding: 0.5rem 0;
+    padding: 0.4rem 0;
     border: none !important;
-    border-bottom: 1.5px solid #1a1a1a !important;
+    border-bottom: 1px solid #1a1a1a !important;
     border-radius: 0 !important;
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0;
     text-decoration: none !important;
     box-shadow: none !important;
     background-image: none !important;
     transition: opacity 0.15s ease;
   }
   .archive a.research-link::after,
-  a.research-link::after { content: "↓"; font-size: 1rem; line-height: 1; }
+  a.research-link::after { content: "→"; font-style: normal; font-size: 1rem; }
   .archive a.research-link:hover,
   a.research-link:hover { opacity: 0.55; }
 </style>
@@ -140,7 +148,7 @@ author_profile: true
       <p class="research-abstract">
         This paper studies how local exposure to NAFTA-era trade shocks shaped U.S. newspaper coverage of trade policy. Combining a large corpus of local news articles with a shift-share research design, I measure changes in media slant on trade-related issues and examine their downstream effect on political attitudes and voting behavior.
       </p>
-      <a class="research-link" href="{{ '/files/trade_shocks_media_slant.pdf' | relative_url }}" target="_blank" rel="noopener">Paper</a>
+      <a class="research-link" href="{{ '/files/trade_shocks_media_slant.pdf' | relative_url }}" target="_blank" rel="noopener">Download Paper</a>
     </div>
   </div>
 
