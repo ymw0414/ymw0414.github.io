@@ -27,7 +27,7 @@ Working Papers
 
 ---
 
-**In and Out: Worker Flows in Korea's Food Delivery Platform Economy**
+**In and Out**
 
 > *Abstract.* Using administrative data from a major Korean food delivery platform, this paper studies the entry, exit, and earnings dynamics of gig workers. I document worker flows across the platform, characterize who stays and who leaves, and quantify how earnings evolve with experience.
 

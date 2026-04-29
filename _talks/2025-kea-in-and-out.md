@@ -1,5 +1,5 @@
 ---
-title: "In and Out: Worker Flows in Korea's Food Delivery Platform Economy"
+title: "In and Out"
 collection: talks
 type: "Conference talk"
 permalink: /talks/2025-kea-in-and-out
