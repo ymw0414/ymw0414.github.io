@@ -9,35 +9,28 @@ redirect_from:
 
 <style>
   .about-title {
-    font-family: 'Crimson Pro', Georgia, serif !important;
-    font-size: 1.7rem;
-    font-weight: 500;
-    color: #1a1a1a;
-    margin: 0 0 0.35rem 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 0.3rem 0;
     line-height: 1.2;
-    letter-spacing: -0.012em;
+    letter-spacing: -0.02em;
   }
   .about-subtitle {
-    font-family: 'Crimson Pro', Georgia, serif !important;
-    font-size: 1rem;
-    font-style: italic;
-    color: #777;
-    margin: 0 0 3rem 0;
+    font-size: 0.98rem;
+    color: #666;
+    margin: 0 0 2.8rem 0;
     font-weight: 400;
+    letter-spacing: -0.005em;
   }
-  .about-section { margin-top: 2.2rem; }
+  .about-section { margin-top: 2rem; }
   .about-section h3 {
-    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
-    text-transform: lowercase;
-    letter-spacing: 0;
-    font-size: 0.72rem;
-    color: #888;
-    font-weight: 500;
-    margin: 0 0 0.9rem 0;
-  }
-  .about-section h3::before {
-    content: "// ";
-    color: #bbb;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.7rem;
+    color: #999;
+    font-weight: 600;
+    margin: 0 0 0.85rem 0;
   }
   .about-interests {
     list-style: none;
@@ -46,18 +39,17 @@ redirect_from:
   }
   .about-interests li {
     position: relative;
-    padding: 0.1rem 0 0.1rem 1rem;
+    padding: 0.18rem 0 0.18rem 0.95rem;
     font-size: 0.95rem;
     color: #1a1a1a;
-    line-height: 1.55;
+    line-height: 1.5;
   }
   .about-interests li::before {
     content: "—";
     position: absolute;
     left: 0;
-    top: 0.1rem;
-    color: #999;
-    font-family: 'Inter', sans-serif;
+    top: 0.18rem;
+    color: #bbb;
   }
   .about-contact p {
     margin: 0;
@@ -68,38 +60,37 @@ redirect_from:
   .about-contact a {
     color: #1a1a1a;
     text-decoration: none !important;
-    border-bottom: 1px solid #1a1a1a !important;
+    border-bottom: 1px solid #ccc !important;
     padding-bottom: 1px;
+    transition: border-color 0.15s ease;
   }
-  .about-contact a:hover { opacity: 0.6; }
+  .about-contact a:hover { border-bottom-color: #1a1a1a !important; }
   .about-actions { margin-top: 2.5rem; }
   .about-cv-btn {
     display: inline-flex;
     align-items: center;
-    gap: 0.45rem;
+    gap: 0.4rem;
     background: transparent;
     color: #1a1a1a !important;
-    padding: 0.55rem 0;
+    padding: 0.5rem 0;
     border: none !important;
     border-bottom: 1.5px solid #1a1a1a !important;
     border-radius: 0;
-    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
-    font-size: 0.82rem;
-    font-weight: 500;
-    letter-spacing: 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
     text-decoration: none !important;
-    text-transform: lowercase;
-    transition: all 0.15s ease;
+    transition: opacity 0.15s ease;
   }
-  .about-cv-btn::before { content: "↓"; font-size: 1rem; }
+  .about-cv-btn::after { content: "↓"; font-size: 1rem; line-height: 1; }
   .about-cv-btn:hover { opacity: 0.55; }
 </style>
 
 <h1 class="about-title">Minwoo Yoo</h1>
-<p class="about-subtitle">Ph.D. Candidate in Economics · The George Washington University</p>
+<p class="about-subtitle">Ph.D. Candidate in Economics, The George Washington University</p>
 
 <div class="about-section">
-  <h3>research interests</h3>
+  <h3>Research Interests</h3>
   <ul class="about-interests">
     <li>Applied Microeconomics</li>
     <li>Political Economy</li>
@@ -108,10 +99,10 @@ redirect_from:
 </div>
 
 <div class="about-section about-contact">
-  <h3>contact</h3>
+  <h3>Contact</h3>
   <p><a href="mailto:ymw0414@gmail.com">ymw0414@gmail.com</a></p>
 </div>
 
 <div class="about-actions">
-  <a class="about-cv-btn" href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener">curriculum vitae.pdf</a>
+  <a class="about-cv-btn" href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV</a>
 </div>

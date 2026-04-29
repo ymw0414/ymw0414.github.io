@@ -7,13 +7,12 @@ author_profile: true
 
 <style>
   .page__title {
-    font-family: 'Crimson Pro', Georgia, serif !important;
-    font-size: 1.7rem !important;
-    font-weight: 500 !important;
-    color: #1a1a1a !important;
+    font-size: 1.6rem !important;
+    font-weight: 700 !important;
+    color: #111 !important;
     line-height: 1.2 !important;
-    letter-spacing: -0.012em;
-    margin: 0 0 3rem 0 !important;
+    letter-spacing: -0.02em;
+    margin: 0 0 2.5rem 0 !important;
     padding-bottom: 0 !important;
     border-bottom: none !important;
   }
@@ -40,13 +39,12 @@ author_profile: true
   }
 
   .research-content h3 {
-    font-family: 'Crimson Pro', Georgia, serif !important;
-    margin: 0 0 0.4rem 0;
-    font-size: 1.42rem;
-    font-weight: 500;
-    line-height: 1.25;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.3;
     letter-spacing: -0.01em;
-    color: #1a1a1a;
+    color: #111;
   }
   .research-content h3 a.research-title-link,
   .research-content h3 a.research-title-link:hover,
@@ -57,10 +55,8 @@ author_profile: true
   }
 
   .research-coauthors {
-    font-family: 'Crimson Pro', Georgia, serif !important;
-    font-style: italic;
     color: #555;
-    font-size: 1.02rem;
+    font-size: 0.92rem;
     margin: 0 0 0.5rem 0;
   }
   .archive .research-coauthors a,
@@ -72,14 +68,13 @@ author_profile: true
   .research-coauthors a:hover { border-bottom-color: #1a1a1a !important; }
 
   .research-status {
-    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
-    font-size: 0.72rem;
-    text-transform: lowercase;
-    letter-spacing: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.7rem;
+    font-weight: 600;
     color: #999;
-    margin: 0.8rem 0 1.1rem 0;
+    margin: 0.7rem 0 1.1rem 0;
   }
-  .research-status::before { content: "// "; color: #ccc; }
 
   .research-abstract {
     font-size: 0.92rem;
@@ -88,14 +83,12 @@ author_profile: true
     margin: 0 0 1.4rem 0;
   }
   .research-presentations {
-    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
-    font-size: 0.72rem;
-    color: #888;
-    line-height: 1.7;
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.6;
     margin: 0 0 1.4rem 0;
-    text-transform: lowercase;
   }
-  .research-presentations em { color: #555; font-style: normal; font-weight: 500; }
+  .research-presentations em { color: #1a1a1a; font-style: normal; font-weight: 600; }
   .archive .research-presentations a,
   .research-presentations a {
     color: #1a1a1a !important;
@@ -114,25 +107,23 @@ author_profile: true
   a.research-link:active {
     display: inline-flex;
     align-items: center;
-    gap: 0.45rem;
+    gap: 0.4rem;
     background: transparent !important;
     color: #1a1a1a !important;
-    padding: 0.45rem 0;
+    padding: 0.5rem 0;
     border: none !important;
     border-bottom: 1.5px solid #1a1a1a !important;
     border-radius: 0 !important;
-    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
-    font-size: 0.78rem;
-    font-weight: 500;
-    letter-spacing: 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
     text-decoration: none !important;
-    text-transform: lowercase;
     box-shadow: none !important;
     background-image: none !important;
     transition: opacity 0.15s ease;
   }
-  .archive a.research-link::before,
-  a.research-link::before { content: "↓"; font-size: 0.95rem; }
+  .archive a.research-link::after,
+  a.research-link::after { content: "↓"; font-size: 1rem; line-height: 1; }
   .archive a.research-link:hover,
   a.research-link:hover { opacity: 0.55; }
 </style>
@@ -145,11 +136,11 @@ author_profile: true
     </div>
     <div class="research-content">
       <h3><a class="research-title-link" href="{{ '/files/trade_shocks_media_slant.pdf' | relative_url }}" target="_blank" rel="noopener">Trade Shocks and Media Slant</a></h3>
-      <p class="research-status">working paper</p>
+      <p class="research-status">Working Paper</p>
       <p class="research-abstract">
         This paper studies how local exposure to NAFTA-era trade shocks shaped U.S. newspaper coverage of trade policy. Combining a large corpus of local news articles with a shift-share research design, I measure changes in media slant on trade-related issues and examine their downstream effect on political attitudes and voting behavior.
       </p>
-      <a class="research-link" href="{{ '/files/trade_shocks_media_slant.pdf' | relative_url }}" target="_blank" rel="noopener">paper.pdf</a>
+      <a class="research-link" href="{{ '/files/trade_shocks_media_slant.pdf' | relative_url }}" target="_blank" rel="noopener">Paper</a>
     </div>
   </div>
 
@@ -160,11 +151,11 @@ author_profile: true
     <div class="research-content">
       <h3>In and Out: How Do Food Delivery Riders Work?</h3>
       <p class="research-coauthors">with <a href="https://sites.google.com/view/jungminlee71/home" target="_blank" rel="noopener">Jungmin Lee</a> and <a href="https://sites.google.com/site/jinseongpark83/home" target="_blank" rel="noopener">Jinseong Park</a></p>
-      <p class="research-status">working paper</p>
+      <p class="research-status">Working Paper</p>
       <p class="research-abstract">
         We estimate the wage elasticity of labor supply among workers with highly flexible schedules &mdash; food delivery riders. Using unique real-time, transaction-level data spanning nearly two years, we find that a one percent increase in the expected hourly wage raises the probability of working by 0.7&ndash;0.9 percentage points. Intensive-margin wage elasticities range from 2.5 to 2.8. Riders' labor supply becomes more elastic as they accumulate experience, and we find suggestive evidence that riders learn to reduce delivery time per order with experience.
       </p>
-      <p class="research-presentations"><em>presented at</em> Washington Area Labor Economics Symposium (WALES) 2026 [<a href="{{ '/files/in_and_out_poster.jpg' | relative_url }}" target="_blank" rel="noopener">poster</a>]</p>
+      <p class="research-presentations"><em>Presented at:</em> Washington Area Labor Economics Symposium (WALES) 2026 [<a href="{{ '/files/in_and_out_poster.jpg' | relative_url }}" target="_blank" rel="noopener">Poster</a>].</p>
     </div>
   </div>
 
