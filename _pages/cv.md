@@ -9,56 +9,48 @@ redirect_from:
 
 {% include base_path %}
 
+A PDF version of my CV is [available here](/files/cv.pdf).
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Economics, George Washington University (expected 2027)
+* M.A. in Economics, George Washington University
+* B.A. in Economics, [Undergraduate Institution — please update]
 
-Work experience
+Fields
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Primary:** Labor Economics, Applied Microeconomics
+* **Secondary:** Media Economics, Political Economy
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research Experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Amazon — RFCA Economist Internship** (Summer 2026, expected)
+  * Selected after Round 1 and Round 2 interviews; currently in team-matching phase
 
-Publications
+Methods & Skills
+======
+* **Causal inference:** Difference-in-Differences, Instrumental Variables, Shift-Share Designs
+* **Text-as-data & ML:** Natural Language Processing, supervised/unsupervised ML, large-scale text corpora
+* **Programming:** R, Python, Stata, LaTeX, SQL
+
+Publications & Working Papers
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Presentations
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+References
 ======
-* Currently signed in to 43 different slack teams
+*Available upon request.*
