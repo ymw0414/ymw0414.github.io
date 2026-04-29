@@ -72,8 +72,6 @@ redirect_from:
 <div class="about-section about-contact">
   <h3>Contact Details</h3>
   <p><strong>E-mail:</strong> <a href="mailto:ymw0414@gmail.com">ymw0414@gmail.com</a></p>
-  <p><strong>GitHub:</strong> <a href="https://github.com/ymw0414" target="_blank" rel="noopener">ymw0414</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/minwoo-yoo-680411234/" target="_blank" rel="noopener">minwoo-yoo</a></p>
 </div>
 
 <a class="about-cv-btn" href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Curriculum Vitae</a>
