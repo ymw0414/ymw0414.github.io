@@ -41,6 +41,12 @@
   body { font-feature-settings: "ss01", "cv11"; letter-spacing: -0.005em; }
   h1, h2, h3, h4, h5, h6 { letter-spacing: -0.015em; }
   .page__content p, .page__content li { font-family: var(--font-ui) !important; }
+
+  /* Sticky footer: push footer to bottom when content is short */
+  html, body { height: 100%; }
+  body { display: flex; flex-direction: column; min-height: 100vh; }
+  #main { flex: 1 0 auto; }
+  .page__footer { flex-shrink: 0; }
 </style>
 
 <!-- end custom head snippets -->
