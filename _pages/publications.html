@@ -98,6 +98,25 @@ author_profile: true
     color: #333;
     margin: 0 0 1.4rem 0;
   }
+  .research-items {
+    list-style: none;
+    margin: 0 0 1.4rem 0;
+    padding: 0;
+  }
+  .research-items li {
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: #333;
+    margin: 0 0 0.55rem 0;
+    padding: 0;
+  }
+  .research-items li strong {
+    display: inline-block;
+    color: #1a1a1a;
+    font-weight: 600;
+    min-width: 5.5rem;
+    margin-right: 0.4rem;
+  }
   .research-presentations {
     font-family: 'Crimson Pro', Georgia, serif !important;
     font-size: 0.98rem;
@@ -157,9 +176,12 @@ author_profile: true
     <div class="research-content">
       <h3><a class="research-title-link" href="{{ '/files/trade_shocks_media_slant.pdf' | relative_url }}" target="_blank" rel="noopener">Trade Shocks and Media Slant</a></h3>
       <p class="research-status">Working Paper</p>
-      <p class="research-abstract">
-        Does trade liberalization reshape the political language of local news? Using over 52 million newspaper articles and an event study exploiting NAFTA exposure across commuting zones, I find that trade-exposed newspapers underwent a systematic rightward shift &mdash; the share of Republican-leaning articles rose by 9.6 percentage points for a top-versus-bottom-quartile difference in trade vulnerability. The shift concentrates in initially Democratic-leaning newspapers serving low-education communities, consistent with a demand-side channel in which newspapers adjusted to changing reader preferences.
-      </p>
+      <ul class="research-items">
+        <li><strong>Question.</strong> Does trade liberalization reshape the political language of local news?</li>
+        <li><strong>Data.</strong> 52 million U.S. local newspaper articles (1987&ndash;2004) and congressional speeches.</li>
+        <li><strong>Strategy.</strong> Event-study DiD exploiting cross-CZ variation in NAFTA tariff exposure.</li>
+        <li><strong>Finding.</strong> Trade-exposed newspapers shifted rightward by 9.6 pp (top vs. bottom quartile); the shift concentrates in initially Democratic-leaning papers in low-education areas, consistent with demand-side adjustment.</li>
+      </ul>
     </div>
   </div>
 
@@ -172,9 +194,12 @@ author_profile: true
       <h3>In and Out: How Do Food Delivery Riders Work?</h3>
       <p class="research-coauthors">with <a href="https://sites.google.com/view/jungminlee71/home" target="_blank" rel="noopener">Jungmin Lee</a> and <a href="https://sites.google.com/site/jinseongpark83/home" target="_blank" rel="noopener">Jinseong Park</a></p>
       <p class="research-status">Working Paper</p>
-      <p class="research-abstract">
-        We estimate the wage elasticity of labor supply among food delivery riders &mdash; workers with highly flexible schedules. Using transaction-level platform data spanning nearly two years, we find that a one percent rise in the expected hourly wage raises the probability of working by 0.7&ndash;0.9 percentage points, with intensive-margin elasticities of 2.5 to 2.8. Riders' labor supply becomes more elastic with experience, with suggestive evidence that they learn to deliver faster over time.
-      </p>
+      <ul class="research-items">
+        <li><strong>Question.</strong> How elastic is labor supply for gig workers with flexible schedules?</li>
+        <li><strong>Data.</strong> Transaction-level data from a Korean food-delivery platform spanning two years.</li>
+        <li><strong>Strategy.</strong> Shift-share IV using municipality-level restaurant category shares interacted with daily category-specific demand.</li>
+        <li><strong>Finding.</strong> A 1% wage increase raises the probability of working by 0.7&ndash;0.9 pp; intensive-margin elasticities are 2.5&ndash;2.8 and rise with experience.</li>
+      </ul>
       <p class="research-presentations"><em>Presented at:</em> Washington Area Labor Economics Symposium (WALES) 2026 [<a href="{{ '/files/in_and_out_poster.jpg' | relative_url }}" target="_blank" rel="noopener">Poster</a>].</p>
     </div>
   </div>
