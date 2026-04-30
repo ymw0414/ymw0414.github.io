@@ -19,12 +19,11 @@ redirect_from:
   }
   .about-subtitle {
     font-family: 'Crimson Pro', Georgia, serif !important;
-    font-size: 1.1rem;
-    font-style: italic;
-    color: #555;
+    font-size: 1.15rem;
+    color: #444;
     margin: 0 0 2.8rem 0;
     font-weight: 400;
-    line-height: 1.4;
+    line-height: 1.5;
   }
   .about-section { margin-top: 2rem; }
   .about-section--first { margin-top: 0; }
@@ -97,7 +96,7 @@ redirect_from:
 </style>
 
 <h1 class="about-title">Minwoo Yoo</h1>
-<p class="about-subtitle">Ph.D. Candidate in Economics<br>The George Washington University</p>
+<p class="about-subtitle">Hi, welcome to my page! I'm a Ph.D. Candidate in Economics at The George Washington University.</p>
 
 <div class="about-section">
   <h3>Research Interests</h3>
