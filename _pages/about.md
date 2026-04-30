@@ -53,7 +53,7 @@ redirect_from:
 
 <h1 class="about-title">Minwoo Yoo</h1>
 
-<p class="about-interests-line"><strong>Research interests:</strong> Applied microeconomics, political economy, text analysis</p>
+<p class="about-interests-line"><strong>Research interests:</strong> Political Economy, Labor Economics, Text Analysis</p>
 
 <p class="about-intro">Hi! I am a Ph.D. candidate in economics at The George Washington University. My research combines causal inference and machine learning to draw economic insights from large-scale unstructured data.</p>
 
