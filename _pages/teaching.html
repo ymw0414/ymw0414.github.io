@@ -17,16 +17,20 @@ author_profile: true
     padding-bottom: 0 !important;
     border-bottom: none !important;
   }
-  .teaching-block { margin-bottom: 2.5rem; }
-  .teaching-block-header {
+
+  .teaching-block { margin-bottom: 3rem; }
+
+  .teaching-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 0 0 0.7rem 0;
     flex-wrap: wrap;
-    gap: 0.6rem;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
   }
-  .teaching-block h2 {
+  .teaching-header h2 {
     font-family: 'Crimson Pro', Georgia, serif !important;
     font-size: 1.25rem;
     font-weight: 600;
@@ -35,61 +39,72 @@ author_profile: true
     letter-spacing: -0.01em;
   }
   .teaching-period {
-    font-size: 0.9rem;
-    color: #666;
-    font-style: italic;
-  }
-  .teaching-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .teaching-list li {
-    font-size: 0.95rem;
-    color: #333;
-    line-height: 1.65;
-    padding: 0.2rem 0 0.2rem 1.1rem;
-    position: relative;
-  }
-  .teaching-list li::before {
-    content: "—";
-    position: absolute;
-    left: 0;
-    top: 0.2rem;
-    color: #bbb;
-  }
-  .teaching-role {
-    color: #1a1a1a;
-    font-weight: 600;
-  }
-  .teaching-courses {
-    color: #444;
-  }
-  .teaching-meta {
+    font-size: 0.88rem;
     color: #777;
     font-style: italic;
+    white-space: nowrap;
+  }
+
+  .teaching-item {
+    margin: 0 0 1rem 0;
+  }
+  .teaching-item:last-child { margin-bottom: 0; }
+
+  .teaching-role {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 0.15rem 0;
+  }
+  .teaching-role .teaching-meta {
+    font-weight: 400;
+    color: #777;
+    font-style: italic;
+    margin-left: 0.4rem;
+  }
+  .teaching-detail {
+    font-size: 0.92rem;
+    color: #444;
+    line-height: 1.55;
+    margin: 0;
   }
 </style>
 
 <div class="teaching-block">
-  <div class="teaching-block-header">
+  <div class="teaching-header">
     <h2>The George Washington University</h2>
     <span class="teaching-period">Fall 2023 – Present</span>
   </div>
-  <ul class="teaching-list">
-    <li><span class="teaching-role">Math Camp Instructor</span> &nbsp;&middot;&nbsp; <span class="teaching-courses">Real analysis, linear algebra, optimization, and statistics for incoming Ph.D. students</span> <span class="teaching-meta">(Summers 2024, 2025)</span></li>
-    <li><span class="teaching-role">Teaching Assistant</span> &nbsp;&middot;&nbsp; <span class="teaching-courses">Econometrics I&ndash;II, Microeconomic Theory I&ndash;II</span> <span class="teaching-meta">(Ph.D.)</span></li>
-  </ul>
+
+  <div class="teaching-item">
+    <p class="teaching-role">Math Camp Instructor <span class="teaching-meta">Summers 2024, 2025</span></p>
+    <p class="teaching-detail">Real analysis, linear algebra, optimization, and statistics for incoming Economics Ph.D. students.</p>
+  </div>
+
+  <div class="teaching-item">
+    <p class="teaching-role">Teaching Assistant <span class="teaching-meta">Ph.D. level</span></p>
+    <p class="teaching-detail">Econometrics I–II; Microeconomic Theory I–II.</p>
+  </div>
 </div>
 
 <div class="teaching-block">
-  <div class="teaching-block-header">
+  <div class="teaching-header">
     <h2>Seoul National University</h2>
     <span class="teaching-period">Spring 2018 – Fall 2020</span>
   </div>
-  <ul class="teaching-list">
-    <li><span class="teaching-role">Teaching Assistant</span> &nbsp;&middot;&nbsp; <span class="teaching-courses">Industrial Organization</span> <span class="teaching-meta">(Ph.D.)</span></li>
-    <li><span class="teaching-role">Teaching Assistant</span> &nbsp;&middot;&nbsp; <span class="teaching-courses">Mathematics for Economics; Stocks, Bonds, and Financial Derivatives</span> <span class="teaching-meta">(Undergraduate)</span></li>
-    <li><span class="teaching-role">Co-author</span> &nbsp;&middot;&nbsp; <span class="teaching-courses">Textbook contributions to <em>Mathematics for Economists</em></span></li>
-  </ul>
+
+  <div class="teaching-item">
+    <p class="teaching-role">Teaching Assistant <span class="teaching-meta">Ph.D. level</span></p>
+    <p class="teaching-detail">Industrial Organization.</p>
+  </div>
+
+  <div class="teaching-item">
+    <p class="teaching-role">Teaching Assistant <span class="teaching-meta">Undergraduate</span></p>
+    <p class="teaching-detail">Mathematics for Economics; Stocks, Bonds, and Financial Derivatives.</p>
+  </div>
+
+  <div class="teaching-item">
+    <p class="teaching-role">Co-author</p>
+    <p class="teaching-detail">Textbook contributions to <em>Mathematics for Economists</em>.</p>
+  </div>
 </div>
