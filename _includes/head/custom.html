@@ -47,6 +47,18 @@
   body { display: flex; flex-direction: column; min-height: 100vh; }
   #main { flex: 1 0 auto; padding-bottom: 5rem; }
   .page__footer { flex-shrink: 0; padding-top: 2.5rem !important; }
+
+  /* Prevent sidebar text from overflowing into main content */
+  .sidebar, .author__avatar, .author__content, .author__bio, .author__name, .author__urls, .author__urls li {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: normal;
+  }
+  .author__urls li {
+    white-space: normal !important;
+    line-height: 1.4;
+  }
 </style>
 
 <!-- end custom head snippets -->
