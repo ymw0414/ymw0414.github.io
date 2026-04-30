@@ -5,8 +5,91 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+  .page__title {
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    color: #1a1a1a !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.015em;
+    margin: 0 0 2.5rem 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: none !important;
+  }
+  .teaching-block { margin-bottom: 2.5rem; }
+  .teaching-block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 0 0.7rem 0;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .teaching-block h2 {
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .teaching-period {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+  }
+  .teaching-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .teaching-list li {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.65;
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    position: relative;
+  }
+  .teaching-list li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    color: #bbb;
+  }
+  .teaching-role {
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+  .teaching-courses {
+    color: #444;
+  }
+  .teaching-meta {
+    color: #777;
+    font-style: italic;
+  }
+</style>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="teaching-block">
+  <div class="teaching-block-header">
+    <h2>The George Washington University</h2>
+    <span class="teaching-period">Fall 2023 – Present</span>
+  </div>
+  <ul class="teaching-list">
+    <li><span class="teaching-role">Math Camp Instructor</span> &nbsp;&middot;&nbsp; <span class="teaching-courses">Real analysis, linear algebra, optimization, and statistics for incoming Ph.D. students</span> <span class="teaching-meta">(Summers 2024, 2025)</span></li>
+    <li><span class="teaching-role">Teaching Assistant</span> &nbsp;&middot;&nbsp; <span class="teaching-courses">Econometrics I&ndash;II, Microeconomic Theory I&ndash;II</span> <span class="teaching-meta">(Ph.D.)</span></li>
+  </ul>
+</div>
+
+<div class="teaching-block">
+  <div class="teaching-block-header">
+    <h2>Seoul National University</h2>
+    <span class="teaching-period">Spring 2018 – Fall 2020</span>
+  </div>
+  <ul class="teaching-list">
+    <li><span class="teaching-role">Teaching Assistant</span> &nbsp;&middot;&nbsp; <span class="teaching-courses">Industrial Organization</span> <span class="teaching-meta">(Ph.D.)</span></li>
+    <li><span class="teaching-role">Teaching Assistant</span> &nbsp;&middot;&nbsp; <span class="teaching-courses">Mathematics for Economics; Stocks, Bonds, and Financial Derivatives</span> <span class="teaching-meta">(Undergraduate)</span></li>
+    <li><span class="teaching-role">Co-author</span> &nbsp;&middot;&nbsp; <span class="teaching-courses">Textbook contributions to <em>Mathematics for Economists</em></span></li>
+  </ul>
+</div>
