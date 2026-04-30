@@ -55,6 +55,6 @@ redirect_from:
 
 <p class="about-interests-line"><strong>Research interests:</strong> Applied microeconomics, political economy</p>
 
-<p class="about-intro">Hi! I am a Ph.D. candidate in economics at The George Washington University. In my research, I leverage large-scale unstructured data, focusing on empirical approaches that combine causal inference with machine learning.</p>
+<p class="about-intro">Hi! I am a Ph.D. candidate in economics at The George Washington University. My research combines causal inference and machine learning to draw economic insights from large-scale unstructured data.</p>
 
 <p class="about-contact-line"><strong>Contact:</strong> <a href="mailto:ymw0414@gmail.com">ymw0414@gmail.com</a></p>
