@@ -113,6 +113,3 @@ redirect_from:
   <p><a href="mailto:ymw0414@gmail.com">ymw0414@gmail.com</a></p>
 </div>
 
-<div class="about-actions">
-  <a class="about-cv-btn" href="{{ '/files/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Curriculum Vitae</a>
-</div>
