@@ -53,7 +53,7 @@ redirect_from:
 
 <h1 class="about-title">Minwoo Yoo</h1>
 
-<p class="about-interests-line"><strong>Research interests:</strong> Applied microeconomics, political economy, labor, unstructured data (e.g., text), econometrics</p>
+<p class="about-interests-line"><strong>Research interests:</strong> Applied microeconomics, political economy</p>
 
 <p class="about-intro">Hi! I am a Ph.D. candidate in economics at The George Washington University. I study how economic shocks &mdash; such as trade liberalization and the rise of platform work &mdash; reshape political discourse and labor markets. In my research, I leverage large-scale unstructured data and develop empirical approaches that combine causal inference with text-as-data and machine learning.</p>
 
