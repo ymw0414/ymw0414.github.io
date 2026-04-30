@@ -18,7 +18,13 @@ author_profile: true
     border-bottom: none !important;
   }
 
-  .teaching-block { margin-bottom: 3rem; }
+  .teaching-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 1rem;
+  }
+  .teaching-block {}
 
   .teaching-header {
     display: flex;
@@ -26,22 +32,22 @@ author_profile: true
     align-items: baseline;
     flex-wrap: wrap;
     gap: 0.5rem;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #eee;
+    margin-bottom: 1.2rem;
   }
   .teaching-header h2 {
     font-family: 'Crimson Pro', Georgia, serif !important;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
     font-weight: 600;
     color: #1a1a1a;
     margin: 0;
-    letter-spacing: -0.01em;
+    line-height: 1.2;
+    letter-spacing: -0.012em;
   }
   .teaching-period {
-    font-size: 0.88rem;
-    color: #777;
+    font-family: 'Crimson Pro', Georgia, serif !important;
     font-style: italic;
+    font-size: 1rem;
+    color: #777;
     white-space: nowrap;
   }
 
@@ -51,24 +57,27 @@ author_profile: true
   .teaching-item:last-child { margin-bottom: 0; }
 
   .teaching-role {
-    font-size: 0.95rem;
-    font-weight: 600;
+    font-size: 0.93rem;
+    font-weight: 700;
     color: #1a1a1a;
-    margin: 0 0 0.15rem 0;
+    margin: 0 0 0.2rem 0;
+    letter-spacing: -0.005em;
   }
   .teaching-role .teaching-meta {
     font-weight: 400;
     color: #777;
     font-style: italic;
-    margin-left: 0.4rem;
+    margin-left: 0.45rem;
   }
   .teaching-detail {
     font-size: 0.92rem;
-    color: #444;
-    line-height: 1.55;
+    color: #333;
+    line-height: 1.7;
     margin: 0;
   }
 </style>
+
+<div class="teaching-list">
 
 <div class="teaching-block">
   <div class="teaching-header">
@@ -107,4 +116,6 @@ author_profile: true
     <p class="teaching-role">Co-author</p>
     <p class="teaching-detail">Textbook contributions to <em>Mathematics for Economists</em>.</p>
   </div>
+</div>
+
 </div>
