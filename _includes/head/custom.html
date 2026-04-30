@@ -52,6 +52,10 @@
   .sidebar {
     overflow: hidden;
     box-sizing: border-box;
+    padding-right: 2rem !important;   /* gutter between sidebar and main content */
+  }
+  @media screen and (min-width: 1280px) {
+    .sidebar { padding-right: 2.5rem !important; }
   }
   .sidebar *, .author__avatar, .author__content, .author__bio, .author__name, .author__urls, .author__urls li {
     max-width: 100%;
