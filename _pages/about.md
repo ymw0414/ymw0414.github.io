@@ -96,7 +96,10 @@ redirect_from:
   .about-cv-btn:hover { opacity: 0.55; }
 </style>
 
-<div class="about-section about-section--first">
+<h1 class="about-title">Minwoo Yoo</h1>
+<p class="about-subtitle">Ph.D. Candidate in Economics</p>
+
+<div class="about-section">
   <h3>Research Interests</h3>
   <ul class="about-interests">
     <li>Applied Microeconomics</li>
