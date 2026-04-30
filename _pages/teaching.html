@@ -28,6 +28,19 @@ author_profile: true
     letter-spacing: -0.01em;
     padding-bottom: 0.35rem;
     border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .teaching-school > h2 .school-years {
+    font-family: 'Inter', -apple-system, sans-serif !important;
+    font-size: 0.82rem;
+    font-weight: 400;
+    color: #888;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
   }
   .teaching-role { margin: 0 0 1.4rem 0; }
   .teaching-role:last-child { margin-bottom: 0; }
@@ -50,6 +63,18 @@ author_profile: true
     line-height: 1.55;
     padding: 0.18rem 0;
   }
+  .course-name { font-weight: 600; }
+  .course-level {
+    font-size: 0.82em;
+    color: #888;
+    font-weight: 400;
+    margin-left: 0.15rem;
+    letter-spacing: 0.01em;
+  }
+  .course-term {
+    color: #555;
+    font-variant-numeric: tabular-nums;
+  }
   .teaching-detail {
     display: block;
     font-size: 0.86rem;
@@ -66,12 +91,12 @@ author_profile: true
 </style>
 
 <div class="teaching-school">
-  <h2>The George Washington University</h2>
+  <h2>The George Washington University <span class="school-years">2023 &ndash; Present</span></h2>
 
   <div class="teaching-role">
     <h3>Instructor</h3>
     <ul>
-      <li>Math Camp (Ph.D.), Summers 2024, 2025
+      <li><span class="course-name">Math Camp</span> <span class="course-level">(Ph.D.)</span>, <span class="course-term">Summers 2024, 2025</span>
         <span class="teaching-detail">Real analysis, linear algebra, optimization, and statistics for incoming Economics Ph.D. students. Designed the syllabus, lecture notes, problem sets, and final exam.</span>
       </li>
     </ul>
@@ -80,10 +105,10 @@ author_profile: true
   <div class="teaching-role">
     <h3>Teaching Assistant</h3>
     <ul>
-      <li>Econometrics I&ndash;II (Ph.D.), Fall 2024 &ndash; Present
+      <li><span class="course-name">Econometrics I&ndash;II</span> <span class="course-level">(Ph.D.)</span>, <span class="course-term">Fall 2024 &ndash; Present</span>
         <span class="teaching-detail">TA for Profs. <a href="https://economics.columbian.gwu.edu/robert-f-phillips" target="_blank" rel="noopener">Robert F. Phillips</a> and <a href="https://economics.columbian.gwu.edu/ben-williams" target="_blank" rel="noopener">Ben Williams</a>.</span>
       </li>
-      <li>Microeconomic Theory I&ndash;II (Ph.D.), Fall 2023 &ndash; Spring 2024
+      <li><span class="course-name">Microeconomic Theory I&ndash;II</span> <span class="course-level">(Ph.D.)</span>, <span class="course-term">Fall 2023 &ndash; Spring 2024</span>
         <span class="teaching-detail">TA for Prof. <a href="https://economics.columbian.gwu.edu/sumit-joshi" target="_blank" rel="noopener">Sumit Joshi</a>.</span>
       </li>
     </ul>
@@ -91,17 +116,17 @@ author_profile: true
 </div>
 
 <div class="teaching-school">
-  <h2>Seoul National University</h2>
+  <h2>Seoul National University <span class="school-years">2018 &ndash; 2020</span></h2>
 
   <div class="teaching-role">
     <h3>Teaching Assistant</h3>
     <ul>
-      <li>Studies in Industrial Organization (Theoretical Analysis) (Ph.D.)</li>
-      <li>Industrial Organization (undergraduate)</li>
-      <li>Mathematics for Economics (undergraduate)
+      <li><span class="course-name">Studies in Industrial Organization</span> <span class="course-level">(Ph.D.)</span></li>
+      <li><span class="course-name">Industrial Organization</span> <span class="course-level">(undergraduate)</span></li>
+      <li><span class="course-name">Mathematics for Economics</span> <span class="course-level">(undergraduate)</span>
         <span class="teaching-detail">Proofread the course textbook <em>Mathematics for Economists</em> and authored its complete solution manual.</span>
       </li>
-      <li>Stocks, Bonds, and Financial Derivatives (undergraduate)</li>
+      <li><span class="course-name">Stocks, Bonds, and Financial Derivatives</span> <span class="course-level">(undergraduate)</span></li>
     </ul>
   </div>
 </div>
