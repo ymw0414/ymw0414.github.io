@@ -19,7 +19,7 @@ Education
 
 Fields
 ======
-* **Primary:** Labor Economics, Applied Microeconomics
+* **Primary:** Applied Microeconomics
 * **Secondary:** Media Economics, Political Economy
 
 Research Experience
