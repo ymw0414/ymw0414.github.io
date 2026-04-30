@@ -27,6 +27,7 @@ redirect_from:
     line-height: 1.4;
   }
   .about-section { margin-top: 2rem; }
+  .about-section--first { margin-top: 0; }
   .about-section h3 {
     font-family: 'Crimson Pro', Georgia, serif !important;
     font-style: italic;
@@ -95,10 +96,7 @@ redirect_from:
   .about-cv-btn:hover { opacity: 0.55; }
 </style>
 
-<h1 class="about-title">Minwoo Yoo</h1>
-<p class="about-subtitle">Ph.D. Candidate in Economics<br>The George Washington University</p>
-
-<div class="about-section">
+<div class="about-section about-section--first">
   <h3>Research Interests</h3>
   <ul class="about-interests">
     <li>Applied Microeconomics</li>
