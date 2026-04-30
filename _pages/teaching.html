@@ -13,158 +13,81 @@ author_profile: true
     color: #1a1a1a !important;
     line-height: 1.15 !important;
     letter-spacing: -0.015em;
-    margin: 0 0 2.5rem 0 !important;
+    margin: 0 0 2rem 0 !important;
     padding-bottom: 0 !important;
     border-bottom: none !important;
   }
 
-  .teaching-list {
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    margin-top: 1rem;
-  }
-
-  .teaching-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.4rem;
-  }
-  .teaching-header h2 {
-    font-family: 'Crimson Pro', Georgia, serif !important;
-    font-size: 1.45rem;
-    font-weight: 600;
-    color: #1a1a1a;
-    margin: 0;
-    line-height: 1.2;
-    letter-spacing: -0.012em;
-  }
-  .teaching-period {
-    font-family: 'Crimson Pro', Georgia, serif !important;
-    font-style: italic;
-    font-size: 1rem;
-    color: #777;
-    white-space: nowrap;
-  }
-
-  .teaching-role-group { margin: 0 0 1.4rem 0; }
-  .teaching-role-group:last-child { margin-bottom: 0; }
-  .teaching-role-label {
-    font-family: 'Crimson Pro', Georgia, serif !important;
-    font-style: italic;
+  .teaching-section { margin: 0 0 2rem 0; }
+  .teaching-section h3 {
     font-size: 1.05rem;
-    font-weight: 500;
-    color: #555;
-    margin: 0 0 0.5rem 0;
-  }
-  .teaching-courses {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .teaching-courses li {
-    font-size: 0.94rem;
+    font-weight: 700;
     color: #1a1a1a;
-    line-height: 1.6;
-    padding: 0.15rem 0 0.15rem 1.1rem;
-    position: relative;
+    margin: 0 0 0.65rem 0;
+    letter-spacing: -0.005em;
   }
-  .teaching-courses li::before {
-    content: "—";
-    position: absolute;
-    left: 0;
-    top: 0.15rem;
-    color: #bbb;
-  }
-  .teaching-meta {
+  .teaching-section h3 .teaching-inst {
+    font-weight: 400;
     color: #777;
     font-style: italic;
+    font-size: 0.95rem;
     margin-left: 0.3rem;
   }
-  .teaching-level {
-    display: inline-block;
-    font-size: 0.72rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #888;
-    margin-left: 0.5rem;
-    padding: 0.1rem 0.45rem;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    vertical-align: 1px;
+  .teaching-section ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 1.4rem;
   }
-  .teaching-term {
-    color: #777;
-    font-style: italic;
-    margin-left: 0.5rem;
-    font-size: 0.92rem;
+  .teaching-section ul li {
+    font-size: 0.95rem;
+    color: #1a1a1a;
+    line-height: 1.55;
+    padding: 0.18rem 0;
   }
-  .teaching-course-detail {
+  .teaching-detail {
     display: block;
-    font-size: 0.88rem;
-    color: #555;
-    line-height: 1.6;
-    margin-top: 0.25rem;
+    font-size: 0.86rem;
+    color: #666;
+    line-height: 1.55;
+    margin-top: 0.15rem;
   }
-  .teaching-course-detail a {
+  .teaching-detail a {
     color: #1a1a1a !important;
     text-decoration: none !important;
     border-bottom: 1px solid #ccc !important;
   }
-  .teaching-course-detail a:hover { border-bottom-color: #1a1a1a !important; }
+  .teaching-detail a:hover { border-bottom-color: #1a1a1a !important; }
 </style>
 
-<div class="teaching-list">
-
-<div class="teaching-block">
-  <div class="teaching-header">
-    <h2>The George Washington University</h2>
-    <span class="teaching-period">Fall 2023 – Present</span>
-  </div>
-
-  <div class="teaching-role-group">
-    <p class="teaching-role-label">Instructor</p>
-    <ul class="teaching-courses">
-      <li>Math Camp <span class="teaching-level">Ph.D.</span> <span class="teaching-term">Summers 2024 &amp; 2025</span>
-        <span class="teaching-course-detail">Real analysis, linear algebra, optimization, and statistics for incoming Economics Ph.D. students.</span>
-      </li>
-    </ul>
-  </div>
-
-  <div class="teaching-role-group">
-    <p class="teaching-role-label">Teaching Assistant</p>
-    <ul class="teaching-courses">
-      <li>Econometrics I&ndash;II <span class="teaching-level">Ph.D.</span> <span class="teaching-term">Fall 2024 &ndash; Present</span>
-        <span class="teaching-course-detail">TA for Profs. <a href="https://economics.columbian.gwu.edu/robert-f-phillips" target="_blank" rel="noopener">Robert F. Phillips</a> and <a href="https://economics.columbian.gwu.edu/ben-williams" target="_blank" rel="noopener">Ben Williams</a>.</span>
-      </li>
-      <li>Microeconomic Theory I&ndash;II <span class="teaching-level">Ph.D.</span> <span class="teaching-term">Fall 2023 &ndash; Spring 2024</span>
-        <span class="teaching-course-detail">TA for Prof. <a href="https://economics.columbian.gwu.edu/sumit-joshi" target="_blank" rel="noopener">Sumit Joshi</a>.</span>
-      </li>
-    </ul>
-  </div>
+<div class="teaching-section">
+  <h3>Instructor</h3>
+  <ul>
+    <li>Math Camp (Ph.D.), Summers 2024, 2025
+      <span class="teaching-detail">Real analysis, linear algebra, optimization, and statistics for incoming Economics Ph.D. students at The George Washington University.</span>
+    </li>
+  </ul>
 </div>
 
-<div class="teaching-block">
-  <div class="teaching-header">
-    <h2>Seoul National University</h2>
-    <span class="teaching-period">Spring 2018 – Fall 2020</span>
-  </div>
-
-  <div class="teaching-role-group">
-    <p class="teaching-role-label">Teaching Assistant</p>
-    <ul class="teaching-courses">
-      <li>Studies in Industrial Organization (Theoretical Analysis) <span class="teaching-level">Ph.D.</span></li>
-      <li>Industrial Organization <span class="teaching-level">Undergrad</span></li>
-      <li>Mathematics for Economics <span class="teaching-level">Undergrad</span>
-        <span class="teaching-course-detail">Proofread the course textbook <em>Mathematics for Economists</em> and authored its complete solution manual.</span>
-      </li>
-      <li>Stocks, Bonds, and Financial Derivatives <span class="teaching-level">Undergrad</span></li>
-    </ul>
-  </div>
+<div class="teaching-section">
+  <h3>Teaching Assistant<span class="teaching-inst">— The George Washington University</span></h3>
+  <ul>
+    <li>Econometrics I&ndash;II (Ph.D.), Fall 2024 &ndash; Present
+      <span class="teaching-detail">TA for Profs. <a href="https://economics.columbian.gwu.edu/robert-f-phillips" target="_blank" rel="noopener">Robert F. Phillips</a> and <a href="https://economics.columbian.gwu.edu/ben-williams" target="_blank" rel="noopener">Ben Williams</a>.</span>
+    </li>
+    <li>Microeconomic Theory I&ndash;II (Ph.D.), Fall 2023 &ndash; Spring 2024
+      <span class="teaching-detail">TA for Prof. <a href="https://economics.columbian.gwu.edu/sumit-joshi" target="_blank" rel="noopener">Sumit Joshi</a>.</span>
+    </li>
+  </ul>
 </div>
 
+<div class="teaching-section">
+  <h3>Teaching Assistant<span class="teaching-inst">— Seoul National University</span></h3>
+  <ul>
+    <li>Studies in Industrial Organization (Theoretical Analysis) (Ph.D.), Spring 2018 &ndash; Fall 2020</li>
+    <li>Industrial Organization (undergraduate), Spring 2018 &ndash; Fall 2020</li>
+    <li>Mathematics for Economics (undergraduate), Spring 2018 &ndash; Fall 2020
+      <span class="teaching-detail">Proofread the course textbook <em>Mathematics for Economists</em> and authored its complete solution manual.</span>
+    </li>
+    <li>Stocks, Bonds, and Financial Derivatives (undergraduate), Spring 2018 &ndash; Fall 2020</li>
+  </ul>
 </div>
