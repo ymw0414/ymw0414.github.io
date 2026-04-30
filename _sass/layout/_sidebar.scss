@@ -159,6 +159,7 @@
     max-width: 175px;
     object-fit: cover;
     border-radius: 50%;
+    filter: saturate(0.78) hue-rotate(-4deg);
 
     @include breakpoint($large) {
       padding: 5px;
