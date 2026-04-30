@@ -8,19 +8,25 @@ redirect_from:
 ---
 
 <style>
+  .about-wrap {
+    padding-top: 2.5rem;
+  }
+  @media (min-width: 1024px) {
+    .about-wrap { padding-top: 3.5rem; }
+  }
   .about-title {
     font-family: 'Crimson Pro', Georgia, serif !important;
-    font-size: 2rem;
+    font-size: 2.15rem;
     font-weight: 600;
     color: #1a1a1a;
-    margin: 0 0 1.2rem 0;
+    margin: 0 0 1.5rem 0;
     line-height: 1.15;
     letter-spacing: -0.015em;
   }
   .about-interests-line {
     font-size: 0.98rem;
     color: #444;
-    margin: 0 0 1.4rem 0;
+    margin: 0 0 2rem 0;
     line-height: 1.5;
   }
   .about-interests-line strong {
@@ -29,10 +35,10 @@ redirect_from:
   }
   .about-intro {
     font-family: 'Crimson Pro', Georgia, serif !important;
-    font-size: 1.1rem;
+    font-size: 1.12rem;
     color: #1a1a1a;
-    margin: 0 0 2.5rem 0;
-    line-height: 1.6;
+    margin: 0 0 3rem 0;
+    line-height: 1.65;
   }
   .about-contact-line {
     font-size: 0.98rem;
@@ -51,6 +57,8 @@ redirect_from:
   .about-contact-line a:hover { border-bottom-color: #1a1a1a !important; }
 </style>
 
+<div class="about-wrap">
+
 <h1 class="about-title">Minwoo Yoo</h1>
 
 <p class="about-interests-line"><strong>Research interests:</strong> Political Economy, Labor Economics, Text Analysis</p>
@@ -58,3 +66,5 @@ redirect_from:
 <p class="about-intro">Hi! I am a Ph.D. candidate in economics at The George Washington University. My research combines causal inference and machine learning to draw economic insights from large-scale unstructured data.</p>
 
 <p class="about-contact-line"><strong>Contact:</strong> <a href="mailto:ymw0414@gmail.com">ymw0414@gmail.com</a></p>
+
+</div>
