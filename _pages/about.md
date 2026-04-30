@@ -97,7 +97,7 @@ redirect_from:
 </style>
 
 <h1 class="about-title">Minwoo Yoo</h1>
-<p class="about-subtitle">Ph.D. Candidate in Economics</p>
+<p class="about-subtitle">Ph.D. Candidate in Economics<br>The George Washington University</p>
 
 <div class="about-section">
   <h3>Research Interests</h3>
