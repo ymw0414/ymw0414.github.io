@@ -18,27 +18,33 @@ author_profile: true
     border-bottom: none !important;
   }
 
-  .teaching-section { margin: 0 0 2rem 0; }
-  .teaching-section h3 {
-    font-size: 1.05rem;
-    font-weight: 700;
+  .teaching-school { margin: 0 0 2.5rem 0; }
+  .teaching-school > h2 {
+    font-family: 'Crimson Pro', Georgia, serif !important;
+    font-size: 1.35rem;
+    font-weight: 600;
     color: #1a1a1a;
-    margin: 0 0 0.65rem 0;
-    letter-spacing: -0.005em;
+    margin: 0 0 1rem 0;
+    letter-spacing: -0.01em;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #e5e5e5;
   }
-  .teaching-section h3 .teaching-inst {
-    font-weight: 400;
-    color: #777;
-    font-style: italic;
-    font-size: 0.95rem;
-    margin-left: 0.3rem;
+  .teaching-role { margin: 0 0 1.4rem 0; }
+  .teaching-role:last-child { margin-bottom: 0; }
+  .teaching-role h3 {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin: 0 0 0.5rem 0;
   }
-  .teaching-section ul {
+  .teaching-role ul {
     list-style: disc;
     margin: 0;
     padding-left: 1.4rem;
   }
-  .teaching-section ul li {
+  .teaching-role ul li {
     font-size: 0.95rem;
     color: #1a1a1a;
     line-height: 1.55;
@@ -59,35 +65,43 @@ author_profile: true
   .teaching-detail a:hover { border-bottom-color: #1a1a1a !important; }
 </style>
 
-<div class="teaching-section">
-  <h3>Instructor</h3>
-  <ul>
-    <li>Math Camp (Ph.D.), Summers 2024, 2025
-      <span class="teaching-detail">Real analysis, linear algebra, optimization, and statistics for incoming Economics Ph.D. students at The George Washington University.</span>
-    </li>
-  </ul>
+<div class="teaching-school">
+  <h2>The George Washington University</h2>
+
+  <div class="teaching-role">
+    <h3>Instructor</h3>
+    <ul>
+      <li>Math Camp (Ph.D.), Summers 2024, 2025
+        <span class="teaching-detail">Real analysis, linear algebra, optimization, and statistics for incoming Economics Ph.D. students.</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="teaching-role">
+    <h3>Teaching Assistant</h3>
+    <ul>
+      <li>Econometrics I&ndash;II (Ph.D.), Fall 2024 &ndash; Present
+        <span class="teaching-detail">TA for Profs. <a href="https://economics.columbian.gwu.edu/robert-f-phillips" target="_blank" rel="noopener">Robert F. Phillips</a> and <a href="https://economics.columbian.gwu.edu/ben-williams" target="_blank" rel="noopener">Ben Williams</a>.</span>
+      </li>
+      <li>Microeconomic Theory I&ndash;II (Ph.D.), Fall 2023 &ndash; Spring 2024
+        <span class="teaching-detail">TA for Prof. <a href="https://economics.columbian.gwu.edu/sumit-joshi" target="_blank" rel="noopener">Sumit Joshi</a>.</span>
+      </li>
+    </ul>
+  </div>
 </div>
 
-<div class="teaching-section">
-  <h3>Teaching Assistant<span class="teaching-inst">— The George Washington University</span></h3>
-  <ul>
-    <li>Econometrics I&ndash;II (Ph.D.), Fall 2024 &ndash; Present
-      <span class="teaching-detail">TA for Profs. <a href="https://economics.columbian.gwu.edu/robert-f-phillips" target="_blank" rel="noopener">Robert F. Phillips</a> and <a href="https://economics.columbian.gwu.edu/ben-williams" target="_blank" rel="noopener">Ben Williams</a>.</span>
-    </li>
-    <li>Microeconomic Theory I&ndash;II (Ph.D.), Fall 2023 &ndash; Spring 2024
-      <span class="teaching-detail">TA for Prof. <a href="https://economics.columbian.gwu.edu/sumit-joshi" target="_blank" rel="noopener">Sumit Joshi</a>.</span>
-    </li>
-  </ul>
-</div>
+<div class="teaching-school">
+  <h2>Seoul National University</h2>
 
-<div class="teaching-section">
-  <h3>Teaching Assistant<span class="teaching-inst">— Seoul National University</span></h3>
-  <ul>
-    <li>Studies in Industrial Organization (Theoretical Analysis) (Ph.D.), Spring 2018 &ndash; Fall 2020</li>
-    <li>Industrial Organization (undergraduate), Spring 2018 &ndash; Fall 2020</li>
-    <li>Mathematics for Economics (undergraduate), Spring 2018 &ndash; Fall 2020
-      <span class="teaching-detail">Proofread the course textbook <em>Mathematics for Economists</em> and authored its complete solution manual.</span>
-    </li>
-    <li>Stocks, Bonds, and Financial Derivatives (undergraduate), Spring 2018 &ndash; Fall 2020</li>
-  </ul>
+  <div class="teaching-role">
+    <h3>Teaching Assistant</h3>
+    <ul>
+      <li>Studies in Industrial Organization (Theoretical Analysis) (Ph.D.)</li>
+      <li>Industrial Organization (undergraduate)</li>
+      <li>Mathematics for Economics (undergraduate)
+        <span class="teaching-detail">Proofread the course textbook <em>Mathematics for Economists</em> and authored its complete solution manual.</span>
+      </li>
+      <li>Stocks, Bonds, and Financial Derivatives (undergraduate)</li>
+    </ul>
+  </div>
 </div>
