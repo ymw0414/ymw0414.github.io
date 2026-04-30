@@ -96,7 +96,7 @@ redirect_from:
 </style>
 
 <h1 class="about-title">Minwoo Yoo</h1>
-<p class="about-subtitle">Hi! I'm a Ph.D. Candidate in Economics at The George Washington University. My research applies causal inference (difference-in-differences, instrumental variables, shift-share designs) together with text-as-data and machine learning methods to questions in political economy and labor. I'm currently studying how NAFTA-era trade exposure reshaped local newspaper coverage of trade policy, and how gig workers in food-delivery platforms respond to wage incentives.</p>
+<p class="about-subtitle">Hi! I'm a Ph.D. Candidate in Economics at The George Washington University. My research applies causal inference together with text-as-data and machine learning methods to questions in political economy and labor. I'm currently studying how NAFTA-era trade exposure reshaped local newspaper coverage of trade policy, and how gig workers in food-delivery platforms respond to wage incentives.</p>
 
 <div class="about-section">
   <h3>Research Interests</h3>
