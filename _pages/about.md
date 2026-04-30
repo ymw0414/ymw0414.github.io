@@ -10,6 +10,7 @@ redirect_from:
 <style>
   .about-wrap {
     padding-top: 2.5rem;
+    max-width: 38rem;   /* keep line length comfortable for reading */
   }
   @media (min-width: 1024px) {
     .about-wrap { padding-top: 3.5rem; }
