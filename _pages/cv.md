@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-A PDF version of my CV is [available here](/files/cv.pdf).
+A PDF version of my CV is [available here](/files/cv.pdf). *(Last updated: May 13, 2026)*
 
 Education
 ======
