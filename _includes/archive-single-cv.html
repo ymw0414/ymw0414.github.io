@@ -33,6 +33,9 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
+    {% if post.award %}
+      <p style="font-size: 0.9em; color: #1E4682; font-style: italic; margin: 0 0 0.3em 0;">{{ post.award }}</p>
+    {% endif %}
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}

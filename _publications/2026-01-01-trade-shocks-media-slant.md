@@ -6,6 +6,7 @@ permalink: /publication/trade-shocks-media-slant
 excerpt: 'How did local exposure to NAFTA-era trade shocks shape U.S. newspaper coverage of trade policy?'
 date: 2026-01-01
 venue: 'Working Paper'
+award: 'George and May Shiers Memorial Endowed Award, GWU Department of Economics, Summer 2026'
 paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6259678'
 citation: 'Yoo, Minwoo. (2026). &quot;Trade Shocks and Media Slant.&quot; <i>Working Paper</i>. SSRN: 6259678.'
 ---
