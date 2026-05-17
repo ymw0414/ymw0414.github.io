@@ -22,11 +22,6 @@ Fields
 * **Primary:** Applied Microeconomics
 * **Secondary:** Media Economics, Political Economy
 
-Research Experience
-======
-* **Amazon — RFCA Economist Internship** (Summer 2026, expected)
-  * Selected after Round 1 and Round 2 interviews; currently in team-matching phase
-
 Methods & Skills
 ======
 * **Causal inference:** Difference-in-Differences, Instrumental Variables, Shift-Share Designs
