@@ -39,6 +39,11 @@ Publications & Working Papers
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+Honors & Awards
+======
+* **George and May Shiers Memorial Endowed Award**, The George Washington University Department of Economics (Summer 2026)
+  * For *[Trade Shocks and Media Slant](/publication/trade-shocks-media-slant)*
+
 Presentations
 ======
   <ul>{% for post in site.talks reversed %}
